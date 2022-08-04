@@ -1,0 +1,31 @@
+@import "../../styles/_variables";
+
+.wrapNav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linksWpar {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & a {
+    display: flex;
+    align-items: center;
+    color: $color-text;
+    font-size: 18px;
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

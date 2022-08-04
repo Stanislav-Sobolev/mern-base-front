@@ -1,0 +1,21 @@
+@import "../../styles/_variables";
+
+.button {
+  display: block;
+  padding: 0;
+  margin: 10px;
+  width: 250px;
+  height: 38px;
+  font-size: 18px;
+  background-color: $bg-color;
+  border: 1px solid $border-color;
+  border-radius: 40px;
+  color: $color-text;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    outline: none;
+  }
+}

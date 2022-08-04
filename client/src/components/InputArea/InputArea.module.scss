@@ -1,0 +1,63 @@
+@import "../../styles/_variables";
+
+.wrapArea {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid $border-color;
+  background: none;
+  outline: none;
+  resize: none;
+  border-radius: 20px;
+  color: $color-text;
+  font-size: 18px;
+
+  &::-moz-placeholder {
+    color: #aeb5c5;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #aeb5c5;
+  }
+
+  &:-ms-input-placeholder {
+    color: #aeb5c5;
+  }
+
+  &::-moz-placeholder {
+    color: #aeb5c5;
+  }
+
+  &:-moz-placeholder {
+    color: #aeb5c5;
+  }
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.counter {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: right;
+  color: $color-text;
+  opacity: 0.5;
+}

@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://glievoy:326159487@cluster0.mcaej.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "mern pass login cript",
+  "baseUrl": "http://localhost:5000"
+}

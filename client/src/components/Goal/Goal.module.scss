@@ -1,0 +1,36 @@
+@import "../../styles/_variables";
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapCard {
+  position: relative;
+  margin-top: 30px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dell {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+
+  display: flex;
+  width: 30px;
+  height: 30px;
+
+  align-items: center;
+  justify-content: center;
+  background-color: $error;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  &:hover,
+  &:visited,
+  &:focus {
+    background-color: $border-hover;
+  }
+}
